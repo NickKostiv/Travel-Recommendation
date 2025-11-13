@@ -1,0 +1,40 @@
+{
+    "destinations": [
+      {
+        "name": "Bondi Beach",
+        "country": "Australia",
+        "type": ["beach"],
+        "description": "Famous beach with golden sand and surfing opportunities.",
+        "image": "bondi.jpg"
+      },
+      {
+        "name": "Meenakshi Temple",
+        "country": "India",
+        "type": ["temple"],
+        "description": "Historic temple with stunning architecture and spiritual significance.",
+        "image": "meenakshi.jpg"
+      },
+      {
+        "name": "Eiffel Tower",
+        "country": "France",
+        "type": ["city", "landmark"],
+        "description": "Iconic landmark in Paris offering panoramic city views.",
+        "image": "eiffel.jpg"
+      },
+      {
+        "name": "Copacabana",
+        "country": "Brazil",
+        "type": ["beach"],
+        "description": "Famous for its lively atmosphere and golden sands.",
+        "image": "copacabana.jpg"
+      },
+      {
+        "name": "Angkor Wat",
+        "country": "Cambodia",
+        "type": ["temple"],
+        "description": "Largest religious monument in the world.",
+        "image": "angkorwat.jpg"
+      }
+    ]
+  }
+  

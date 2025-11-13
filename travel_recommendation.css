@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+nav h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav ul li input {
+  padding: 5px;
+}
+
+nav ul li button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.home-banner {
+  background-image: url('travel_banner.jpg');
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.destination {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about, .contact {
+  padding: 20px;
+}
+
+#contactForm input, #contactForm textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
