@@ -1,39 +1,92 @@
 {
-    "destinations": [
+    "countries": [
       {
-        "name": "Bondi Beach",
-        "country": "Australia",
-        "type": ["beach"],
-        "description": "Famous beach with golden sand and surfing opportunities.",
-        "image": "bondi.jpg"
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge, with stunning beaches."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://images.unsplash.com/photo-1514395462725-fb4566210144?w=800",
+            "description": "A cultural hub known for its art, food, and coffee culture, with beautiful parks and gardens."
+          }
+        ]
       },
       {
-        "name": "Meenakshi Temple",
-        "country": "India",
-        "type": ["temple"],
-        "description": "Historic temple with stunning architecture and spiritual significance.",
-        "image": "meenakshi.jpg"
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+            "description": "A bustling metropolis blending tradition and modernity, featuring historic temples alongside futuristic skyscrapers."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800",
+            "description": "Ancient capital with beautiful temples, traditional gardens, and geisha culture."
+          }
+        ]
       },
       {
-        "name": "Eiffel Tower",
-        "country": "France",
-        "type": ["city", "landmark"],
-        "description": "Iconic landmark in Paris offering panoramic city views.",
-        "image": "eiffel.jpg"
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800",
+            "description": "Famous for Christ the Redeemer statue, Carnival, and stunning beaches like Copacabana and Ipanema."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://images.unsplash.com/photo-1548963670-aaaa8f73a5e3?w=800",
+            "description": "The largest city in South America, known for its vibrant nightlife, diverse culture, and excellent cuisine."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=800",
+        "description": "The largest religious monument in the world, originally constructed as a Hindu temple dedicated to Vishnu, later transformed into a Buddhist temple."
       },
       {
-        "name": "Copacabana",
-        "country": "Brazil",
-        "type": ["beach"],
-        "description": "Famous for its lively atmosphere and golden sands.",
-        "image": "copacabana.jpg"
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800",
+        "description": "An ivory-white marble mausoleum, regarded as the jewel of Muslim art in India and one of the universally admired masterpieces."
       },
       {
-        "name": "Angkor Wat",
-        "country": "Cambodia",
-        "type": ["temple"],
-        "description": "Largest religious monument in the world.",
-        "image": "angkorwat.jpg"
+        "id": 3,
+        "name": "Borobudur Temple, Indonesia",
+        "imageUrl": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800",
+        "description": "The world's largest Buddhist temple, featuring intricate stone carvings and over 500 Buddha statues."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "https://images.unsplash.com/photo-1589197331516-7d9447fdca1e?w=800",
+        "description": "A stunning island paradise with crystal-clear turquoise waters, overwater bungalows, and coral reefs perfect for snorkeling."
+      },
+      {
+        "id": 2,
+        "name": "Maldives Beach",
+        "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800",
+        "description": "White sandy beaches with incredibly clear blue waters, perfect for diving and relaxing in tropical paradise."
+      },
+      {
+        "id": 3,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800",
+        "description": "Famous beach with golden sands, lively atmosphere, and stunning views of Sugarloaf Mountain."
       }
     ]
   }

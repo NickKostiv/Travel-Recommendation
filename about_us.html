@@ -1,30 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>About Us</title>
-  <link rel="stylesheet" href="./travel_recommendation.css">
-</head>
-<body>
-  <nav>
-    <h1>Travel Recommendation</h1>
-    <ul>
-      <li><a href="./travel_recommendation.html">Home</a></li>
-      <li><a href="./about_us.html">About Us</a></li>
-      <li><a href="./contact_us.html">Contact Us</a></li>
-    </ul>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - TravelBloom</title>
+    <link rel="stylesheet" href="./travel_recommendation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-plane"></i>
+          <span>TravelBloom</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="travel_recommendation.html">Home</a></li>
+          <li><a href="about_us.html" class="active">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <div class="about">
-    <h2>About Our Company</h2>
-    <p>We provide personalized travel recommendations for destinations worldwide.</p>
+    <!-- Hero Section -->
+    <section class="about-hero">
+      <h1>ABOUT US</h1>
+    </section>
 
-    <h3>Our Team</h3>
-    <ul>
-      <li>Nick Kostiv - CEO</li>
-      <li>Anna Ivanova - Travel Consultant</li>
-      <li>John Smith - Developer</li>
-    </ul>
-  </div>
-</body>
+    <!-- About Content -->
+    <section class="about-content">
+      <div class="about-description">
+        <h2 style="color: #1a4d5e; font-size: 36px; margin-bottom: 30px">
+          Welcome to Our Company
+        </h2>
+        <p style="margin-bottom: 20px">
+          We are a team of passionate individuals dedicated to providing
+          excellent travel experiences to our customers. Our mission is to
+          provide the best experiences by connecting travelers to different
+          destinations and exciting cultures around the world.
+        </p>
+        <p style="margin-bottom: 20px">
+          With years of experience in the travel industry, we believe in guiding
+          our customers first. It is working together to achieve our goals of
+          making travel accessible, enjoyable, and unforgettable for everyone.
+        </p>
+        <p>
+          Feel free to explore our website to learn more about what we offer. We
+          are committed to helping you discover your dream destination and
+          create memories that will last a lifetime.
+        </p>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-icon">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>John Doe</h3>
+          <p class="role">CEO</p>
+          <p>John is responsible for [...]</p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-icon">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Celine Thomas</h3>
+          <p class="role">Team Lead</p>
+          <p>Celine oversees & coordinates [...]</p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-icon">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <h3>Mike Tyson</h3>
+          <p class="role">Delivery Head</p>
+          <p>Mike Tyson is responsible for [...]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div
+          class="social-media"
+          style="
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 15px;
+          ">
+          <a href="#" class="social-icon" style="display: inline-block">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon" style="display: inline-block">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-icon" style="display: inline-block">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon" style="display: inline-block">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 TravelBloom. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>

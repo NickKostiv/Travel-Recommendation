@@ -2,22 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Travel Recommendations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Explore Dream Destinations</title>
   <link rel="stylesheet" href="./travel_recommendation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <nav>
-    <h1>Travel Recommendations</h1>
-    <ul>
-      <li><input type="text" id="destinationInput" placeholder="Enter a destination"></li>
-      <li><button id="btnSearch">Search</button></li>
-    </ul>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <i class="fas fa-plane"></i>
+        <span>TravelBloom</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="travel_recommendation.html" class="active">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+        <button id="btnSearch" class="btn-search">
+          <i class="fas fa-search"></i> Search
+        </button>
+        <button id="btnClear" class="btn-clear">Clear</button>
+      </div>
+    </div>
   </nav>
 
-  <div class="container">
-    <h2>Recommended Places</h2>
-    <div id="result"></div>
-  </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="social-media">
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="hero-text">
+        <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+        <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+        <button class="btn-book">BOOK NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Results Section -->
+  <section class="results-section" id="resultsSection" style="display: none;">
+    <div class="container">
+      <h2>Recommendations</h2>
+      <div id="results" class="results-grid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 TravelBloom. All rights reserved.</p>
+    </div>
+  </footer>
 
   <script src="./travel_recommendation.js"></script>
 </body>
